@@ -1,0 +1,190 @@
+
+body 
+{
+	padding: 0;
+	margin: 0;
+	background:#ffffff;
+}
+
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: bold;
+}
+
+.navbar
+{
+	background:#140d0d;
+}
+
+.nav-link, 
+.navbar-brand
+{
+	color: #e1e4d4;
+	cursor: pointer;
+}
+
+.nav-link
+{
+	margin-right: 1em !important;
+}
+
+.nav-link:hover
+{
+	background: #ffffff;
+	color: #fcfdf7;
+}
+
+.navbar-collapse
+{
+ 	justify-content: flex-end;
+}
+
+.navbar-toggler
+{
+	background:#e7e5e5 !important;
+	
+}
+
+/*header style*/
+.header
+{
+	background-image: url('../images/bg000.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.overlay
+{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgb(240, 238, 240)
+}
+.description{
+    position: absolute;
+    top: 5%;
+    margin: auto;
+    padding: 1em;
+}
+
+.description h1{
+	color: #f3eded ;
+}
+
+.description p{
+	color: rgb(238, 231, 231);
+	font-size: 22px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+	border:1px  solid rgb(104, 167, 33);
+	background:#9c0612;
+	color:#fff;
+}
+.about{
+	margin: 2em auto;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color: white;
+	margin: 1em;
+	text-transform: uppercase;
+}
+.about img{
+	height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+	display: block;
+	color: rgb(224, 229, 235);
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:8px solid #dedbe6;
+}
+
+
+
+/*Experiences*/
+.experiences{
+	margin: 1em 0;
+    position: relative;	
+}
+.experiences h1{
+	color:rgb(12, 11, 11);
+	margin: 1em;	
+}
+.experiences .card{
+	box-shadow: 0 0 100px rgb(80, 50, 50);
+}
+.experiences .card img{
+	width: 100%;
+	height: 12em;
+}
+.experiences img{
+	 height: 15rem;
+	 width: 100%;
+	 margin: 1em;
+}
+
+/*education style*/
+
+.education{
+	margin: 4em 0;
+	position: relative;	
+}
+.education h1{
+	color: #666;
+	margin: 2em;	
+}
+.education .card{
+	box-shadow: #666 0 0 28px rgb(95, 26, 26);
+}
+.education .card img{
+	width: 100%;
+	height: 12em;
+}
+
+/*skills style*/
+
+.skills{
+	margin: 4em 0;
+	position: relative;	
+}
+.skills h1{
+	color: #666;
+	margin: 2em;	
+}
+.skills .card{
+	box-shadow: 0 0 20px #ccc;
+}
+.skills .card img{
+	width: 100%;
+	height: 12em;
+}
+
+/*Interests Style*/
+
+.Interest{
+	margin: 4em 0;
+	position: relative;
+}
+.Interest h1{
+	color: #666;
+	margin: 2em;
+}
+.Interest .card{
+	box-shadow: 0 0 20px #ccc;
+}
+.Interest .card img{
+	width: 100%;
+	height: 12em;
+}
